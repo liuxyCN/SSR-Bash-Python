@@ -60,7 +60,8 @@ fi
 
 #Install SSR and SSR-Bash
 cd /usr/local
-git clone https://github.com/shadowsocksr/shadowsocksr.git
+#git clone https://github.com/shadowsocksr/shadowsocksr.git
+git clone https://github.com/liuxyCN/shadowsocksr-1.git shadowsocksr
 git clone https://github.com/${GH_REPO}.git
 cd /usr/local/shadowsocksr
 bash initcfg.sh
